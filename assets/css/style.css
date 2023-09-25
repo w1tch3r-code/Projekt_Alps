@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Cinzel';
+    src: url('./../fonts/Cinzel-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Rg';
+    src: url('./../fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Bd';
+    src: url('./../fonts/Poppins-Bold.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #ddd;
+}
+
+div.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 10px 100px;
+}
+
+header h2 {
+    font-family: 'Cinzel';
+    color: #999999;
+    font-size: 20px;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+h1  {
+    color: white;
+    font-size: 50px;
+    font-family: 'Cinzel';
+    font-weight: 700;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.hero {
+    background: white url('./../img/header.png') center / cover no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+}
+
+.trip h2, .tour-dates h2, .contact h2 {
+    color: #333333;
+    font-size: 24px;
+    font-family: 'Cinzel';
+    font-weight: 700;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.trip {
+    padding: 60px 160px 50px;
+
+}
+
+.trip p {
+    width: 1000px;
+    padding: 50px 0;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.trip div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.trip div img {
+    display: block;
+    width: 340px;
+    height: 200px;
+}
+
+.tour-dates {
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.tour-dates ul.dates {
+    padding-top: 30px;
+}
+
+.tour-dates ul.dates li {
+    list-style-type: none;
+    line-height: 30px;
+    font: 16px;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.tour-dates ul.dates li {
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.tour-dates ul.dates .sold-out {
+    color: red;
+}
+
+.tour-dates ul.dates .available {
+    color: #008000;
+}
+
+.contact {
+    font-family: 'Poppins-Bd';
+    padding-top: 40px;
+    height: 170px;
+    border-top: 1px solid black;
+}
+
+.contact h2 {
+    padding-bottom: 20px;
+}
+
+.contact a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.contact a:nth-of-type(1) {
+    color: #3B5998;
+}
+
+.contact a:nth-of-type(2) {
+    color: #1DA1F2;
+}
+
+.contact a:nth-of-type(3) {
+    color: #C32AA3;
+}
